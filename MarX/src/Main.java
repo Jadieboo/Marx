@@ -240,6 +240,8 @@ public class Main {
 			
 		}// end of while loop
 		
+		//Need to add more encounters
+		
 				
 
 	}//end of main method

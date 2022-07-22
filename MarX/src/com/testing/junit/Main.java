@@ -1,3 +1,4 @@
+package com.testing.junit;
 // importing scanner and random class
 import java.util.Scanner;
 import java.util.Random;
@@ -10,6 +11,7 @@ public class Main {
 		Character karen = new Character("Karen", 200, 0, "Sea Creature");
 		Character polly = new Character("Polly", 150, 0, "Parrot");
 		Character bones = new Character("Bones", 50, 0, "Skeleton");
+		
 		
 		// to get user input
 		Scanner input = new Scanner(System.in);
@@ -51,7 +53,6 @@ public class Main {
 				playerEnergy = karen.getEnergy();
 				System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 				System.out.println(" ");
-				System.out.println(userChar);
 				charSelected = true;
 				break;
 			case "3":

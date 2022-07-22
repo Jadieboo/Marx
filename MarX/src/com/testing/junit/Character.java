@@ -1,3 +1,4 @@
+package com.testing.junit;
 
 public class Character {
 	private String name;
@@ -22,8 +23,8 @@ public class Character {
 		return name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setName(String n) {
+		this.name = n;
 	}
 
 	public int getEnergy() {

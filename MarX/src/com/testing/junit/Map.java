@@ -1,3 +1,4 @@
+package com.testing.junit;
 
 public class Map {
 	// used to define the map size
